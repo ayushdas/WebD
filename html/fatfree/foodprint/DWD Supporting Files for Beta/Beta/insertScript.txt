@@ -1,0 +1,154 @@
+-- Create Table for carbonInFood Table
+CREATE TABLE carbonInFood (
+    id int AUTO_INCREMENT PRIMARY KEY,
+    food varchar(255),
+    frequency varchar(255),
+    greehouseGasEmission varchar(255),
+    car varchar(255),
+    houseHeating varchar(255) 
+);
+-- Create Table for users Table
+CREATE TABLE users (
+    id int AUTO_INCREMENT PRIMARY KEY,
+    name varchar(255),
+    email varchar(255),
+    username varchar(255),
+    password varchar(255)
+);
+-- Insert Script for carbonInFood Table
+Insert into carbonInFood values(1,'Apples','1-2 times a week','2kg','7 miles','0.4 days');
+Insert into carbonInFood values(2,'Apples','3-5 times a week','7kg','18 miles','1.1 days');
+Insert into carbonInFood values(3,'Apples','Once a day','12kg','32 miles','2 days');
+Insert into carbonInFood values(4,'Apples','Twice a day or more','25kg','64 miles','3 days');
+Insert into carbonInFood values(5,'Avocados','1-2 times a week','15kg','39 miles','2 days');
+Insert into carbonInFood values(6,'Avocados','3-5 times a week','41kg','105 miles','6 days');
+Insert into carbonInFood values(7,'Avocados','Once a day','72kg','184 miles','11 days');
+Insert into carbonInFood values(8,'Avocados','Twice a day or more','144kg','369 miles','22 days');
+Insert into carbonInFood values(9,'Bananas','1-2 times a week','5kg','14 miles','0.9 days');
+Insert into carbonInFood values(10,'Bananas','3-5 times a week','14kg','37 miles','2 days');
+Insert into carbonInFood values(11,'Bananas','Once a day','25kg','64 miles','3 days');
+Insert into carbonInFood values(12,'Bananas','Twice a day or more','50kg','128 miles','7 days');
+Insert into carbonInFood values(13,'Beans','1-2 times a week','7kg','20 miles','1.2 days');
+Insert into carbonInFood values(14,'Beans','3-5 times a week','20kg','53 miles','3 days');
+Insert into carbonInFood values(15,'Beans','Once a day','36kg','93 miles','5 days');
+Insert into carbonInFood values(16,'Beans','Twice a day or more','73kg','186 miles','11 days');
+Insert into carbonInFood values(17,'Beef','1-2 times a week','604kg','1,542 miles','95 days');
+Insert into carbonInFood values(18,'Beef','3-5 times a week','1,661kg','4,112 miles','255 days');
+Insert into carbonInFood values(19,'Beef','Once a day','2820kg','7,196 miles','447 days');
+Insert into carbonInFood values(20,'Beef','Twice a day or more','5641kg','14,392 miles','895 days');
+Insert into carbonInFood values(21,'Beer','1-2 times a week','52kg','133 miles','8 days');
+Insert into carbonInFood values(22,'Beer','3-5 times a week','139kg','356 miles','22 days');
+Insert into carbonInFood values(23,'Beer','Once a day','243kg','622 miles','38 days');
+Insert into carbonInFood values(24,'Beer','Twice a day or more','487kg','1,245 miles','77 days');
+Insert into carbonInFood values(25,'Berries and grapes','1-2 times a week','9kg','24 miles','1.5 days');
+Insert into carbonInFood values(26,'Berries and grapes','3-5 times a week','25kg','65 miles','4 days');
+Insert into carbonInFood values(27,'Berries and grapes','Once a day','44kg','114 miles','7 days');
+Insert into carbonInFood values(28,'Berries and grapes','Twice a day or more','89kg','227 miles','14 days');
+Insert into carbonInFood values(29,'Bread','1-2 times a week','4kg','12 miles','0.7 days');
+Insert into carbonInFood values(30,'Bread','3-5 times a week','12kg','32 miles','2 days');
+Insert into carbonInFood values(31,'Bread','Once a day','21kg','56 miles','3 days');
+Insert into carbonInFood values(32,'Bread','Twice a day or more','43kg','111 miles','6 days');
+Insert into carbonInFood values(33,'Cheese','1-2 times a week','75kg','193 miles','11 days');
+Insert into carbonInFood values(34,'Cheese','3-5 times a week','201kg','514 miles','31 days');
+Insert into carbonInFood values(35,'Cheese','Once a day','352kg','899 miles','55 days');
+Insert into carbonInFood values(36,'Cheese','Twice a day or more','704kg','1,798 miles','111 days');
+Insert into carbonInFood values(37,'Chicken','1-2 times a week','106kg','272 miles','16 days');
+Insert into carbonInFood values(38,'Chicken','3-5 times a week','284kg','726 miles','45 days');
+Insert into carbonInFood values(39,'Chicken','Once a day','497kg','1,270 miles','79 days');
+Insert into carbonInFood values(40,'Chicken','Twice a day or more','995kg','2,540 miles','158 days');
+Insert into carbonInFood values(41,'Chocolate (dark)','1-2 times a week','116kg','296 miles','18 days');
+Insert into carbonInFood values(42,'Chocolate (dark)','3-5 times a week','309kg','789 miles','49 days');
+Insert into carbonInFood values(43,'Chocolate (dark)','Once a day','541kg','1,381 miles','85 days');
+Insert into carbonInFood values(44,'Chocolate (dark)','Twice a day or more','1082kg','2,763 miles','171 days');
+Insert into carbonInFood values(45,'Chocolate (milk)','1-2 times a week','80kg','205 miles','12 days');
+Insert into carbonInFood values(46,'Chocolate (milk)','3-5 times a week','214kg','547 miles','34 days');
+Insert into carbonInFood values(47,'Chocolate (milk)','Once a day','375kg','957 miles','59 days');
+Insert into carbonInFood values(48,'Chocolate (milk)','Twice a day or more','750kg','1,914 miles','119 days');
+Insert into carbonInFood values(49,'Citrus fruit','1-2 times a week','2kg','6 miles','0.4 days');
+Insert into carbonInFood values(50,'Citrus fruit','3-5 times a week','6kg','17 miles','1 day');
+Insert into carbonInFood values(51,'Citrus fruit','Once a day','11kg','29 miles','1.8 days');
+Insert into carbonInFood values(52,'Citrus fruit','Twice a day or more','22kg','58 miles','3 days');
+Insert into carbonInFood values(53,'Coffee','1-2 times a week','33kg','85 miles','5 days');
+Insert into carbonInFood values(54,'Coffee','3-5 times a week','89kg','227 miles','14 days');
+Insert into carbonInFood values(55,'Coffee','Once a day','155kg','397 miles','24 days');
+Insert into carbonInFood values(56,'Coffee','Twice a day or more','311kg','795 miles','49 days');
+Insert into carbonInFood values(57,'Eggs','1-2 times a week','43kg','111 miles','6 days');
+Insert into carbonInFood values(58,'Eggs','3-5 times a week','115kg','296 miles','18 days');
+Insert into carbonInFood values(59,'Eggs','Once a day','202kg','518 miles','32 days');
+Insert into carbonInFood values(60,'Eggs','Twice a day or more','405kg','1,036 miles','64 days');
+Insert into carbonInFood values(61,'Fish','1-2 times a week','146kg','373 miles','23 days');
+Insert into carbonInFood values(62,'Fish','3-5 times a week','390kg','996 miles','61 days');
+Insert into carbonInFood values(63,'Fish','Once a day','683kg','1,743 miles','108 days');
+Insert into carbonInFood values(64,'Fish','Twice a day or more','1,366kg','3,485 miles','216 days');
+Insert into carbonInFood values(65,'Lamb','1-2 times a week','339kg','865 miles','53 days');
+Insert into carbonInFood values(66,'Lamb','3-5 times a week','904kg','2,307 miles','143 days');
+Insert into carbonInFood values(67,'Lamb','Once a day','1,582kg','4,037 miles','251 days');
+Insert into carbonInFood values(68,'Lamb','Twice a day or more','3,164kg','8,074 miles','502 days');
+Insert into carbonInFood values(69,'Milk (almond)','1-2 times a week','10kg','28 miles','1.7 days');
+Insert into carbonInFood values(70,'Milk (almond)','3-5 times a week','29kg','75 miles','4 days');
+Insert into carbonInFood values(71,'Milk (almond)','Once a day','51kg','130 miles','8 days');
+Insert into carbonInFood values(72,'Milk (almond)','Twice a day or more','102kg','261 miles','16 days');
+Insert into carbonInFood values(73,'Milk (dairy)','1-2 times a week','49kg','125 miles','7 days');
+Insert into carbonInFood values(74,'Milk (dairy)','3-5 times a week','131kg','334 miles','20 days');
+Insert into carbonInFood values(75,'Milk (dairy)','Once a day','229kg','585 miles','36 days');
+Insert into carbonInFood values(76,'Milk (dairy)','Twice a day or more','458kg','1,170 miles','72 days');
+Insert into carbonInFood values(77,'Milk (oat)','1-2 times a week','14kg','36 miles','2 days');
+Insert into carbonInFood values(78,'Milk (oat)','3-5 times a week','37kg','96 miles','5 days');
+Insert into carbonInFood values(79,'Milk (oat)','Once a day','65kg','168 miles','10 days');
+Insert into carbonInFood values(80,'Milk (oat)','Twice a day or more','131kg','335 miles','20 days');
+Insert into carbonInFood values(81,'Milk (rice)','1-2 times a week','18kg','47 miles','2 days');
+Insert into carbonInFood values(82,'Milk (rice)','3-5 times a week','49kg','125 miles','7 days');
+Insert into carbonInFood values(83,'Milk (rice)','Once a day','86kg','219 miles','13 day');
+Insert into carbonInFood values(84,'Milk (rice)','Twice a day or more','172kg','439 miles','27 days');
+Insert into carbonInFood values(85,'Milk (soy)','1-2 times a week','15kg','29 miles','2 days');
+Insert into carbonInFood values(86,'Milk (soy)','3-5 times a week','40kg','104 miles','6 days');
+Insert into carbonInFood values(87,'Milk (soy)','Once a day','71kg','182 miles','11 days');
+Insert into carbonInFood values(88,'Milk (soy)','Twice a day or more','142kg','364 miles','22 days');
+Insert into carbonInFood values(89,'Nuts','1-2 times a week','1.1kg','3 miles','0.2 days');
+Insert into carbonInFood values(90,'Nuts','3-5 times a week','2kg','7 miles','0.5 days');
+Insert into carbonInFood values(91,'Nuts','Once a day','5kg','13 miles','0.8 days');
+Insert into carbonInFood values(92,'Nuts','Twice a day or more','10kg','26 miles','1.6 days');
+Insert into carbonInFood values(93,'Oatmeal','1-2 times a week','8kg','21 miles','1.3 days');
+Insert into carbonInFood values(94,'Oatmeal','3-5 times a week','22kg','56 miles','3 days');
+Insert into carbonInFood values(95,'Oatmeal','Once a day','38kg','98 miles','6 days');
+Insert into carbonInFood values(96,'Oatmeal','Twice a day or more','77kg','197 miles','12 days');
+Insert into carbonInFood values(97,'Pasta','1-2 times a week','9kg','24 miles','1.5 days');
+Insert into carbonInFood values(98,'Pasta','3-5 times a week','25kg','64 miles','3 days');
+Insert into carbonInFood values(99,'Pasta','Once a day','43kg','112 miles','6 days');
+Insert into carbonInFood values(100,'Pasta','Twice a day or more','87kg','224 miles','13 days');
+Insert into carbonInFood values(101,'Peas','1-2 times a week','1.4kg','4 miles','0.2 days');
+Insert into carbonInFood values(102,'Peas','3-5 times a week','3kg','9 miles','0.6 days');
+Insert into carbonInFood values(103,'Peas','Once a day','6kg','16 miles','1 day');
+Insert into carbonInFood values(104,'Peas','Twice a day or more','12kg','33 miles','2 days');
+Insert into carbonInFood values(105,'Pork','1-2 times a week','140kg','359 miles','22 days');
+Insert into carbonInFood values(106,'Pork','3-5 times a week','375kg','957 miles','59 days');
+Insert into carbonInFood values(107,'Pork','Once a day','656kg','1,674 miles','104 days');
+Insert into carbonInFood values(108,'Pork','Twice a day or more','1,312kg','3,349 miles','208 days');
+Insert into carbonInFood values(109,'Potatoes','1-2 times a week','3kg','9 miles','0.6 days');
+Insert into carbonInFood values(110,'Potatoes','3-5 times a week','9kg','25 miles','1.5 days');
+Insert into carbonInFood values(111,'Potatoes','Once a day','16kg','43 miles','2 days');
+Insert into carbonInFood values(112,'Potatoes','Twice a day or more','33kg','86 miles','5 days');
+Insert into carbonInFood values(113,'Prawns','1-2 times a week','269kg','687 miles','42 days');
+Insert into carbonInFood values(114,'Prawns','3-5 times a week','718kg','1,832 miles','113 days');
+Insert into carbonInFood values(115,'Prawns','Once a day','1,256kg','3,206 miles','199 days');
+Insert into carbonInFood values(116,'Prawns','Twice a day or more','2,513kg','6,413 miles','398 days');
+Insert into carbonInFood values(117,'Rice','1-2 times a week','26kg','66 miles','4 days');
+Insert into carbonInFood values(118,'Rice','3-5 times a week','69kg','177 miles','11 days');
+Insert into carbonInFood values(119,'Rice','Once a day','121kg','310 miles','19 days');
+Insert into carbonInFood values(120,'Rice','Twice a day or more','242kg','620 miles','38 days');
+Insert into carbonInFood values(121,'Tea','1-2 times a week','3kg','8 miles','0.5 days');
+Insert into carbonInFood values(122,'Tea','3-5 times a week','8kg','22 miles','1.4 days');
+Insert into carbonInFood values(123,'Tea','Once a day','15kg','39 miles','2 days');
+Insert into carbonInFood values(124,'Tea','Twice a day or more','30kg','78 miles','4 days');
+Insert into carbonInFood values(125,'Tofu','1-2 times a week','12kg','32 miles','2 days');
+Insert into carbonInFood values(126,'Tofu','3-5 times a week','33kg','85 miles','5 days');
+Insert into carbonInFood values(127,'Tofu','Once a day','58kg','149 miles','9 days');
+Insert into carbonInFood values(128,'Tofu','Twice a day or more','116kg','297 miles','18 days');
+Insert into carbonInFood values(129,'Tomatoes','1-2 times a week','13kg','33 miles','2 days');
+Insert into carbonInFood values(130,'Tomatoes','3-5 times a week','34kg','89 miles','5 days');
+Insert into carbonInFood values(131,'Tomatoes','Once a day','60kg','155 miles','9 days');
+Insert into carbonInFood values(132,'Tomatoes','Twice a day or more','121kg','311 miles','19 days');
+Insert into carbonInFood values(133,'Wine','1-2 times a week','24kg','62 miles','3 days');
+Insert into carbonInFood values(134,'Wine','3-5 times a week','65kg','166 miles','10 days');
+Insert into carbonInFood values(135,'Wine','Once a day','114kg','291 miles','18 days');
+Insert into carbonInFood values(136,'Wine','Twice a day or more','228kg','582 miles','36 days');
